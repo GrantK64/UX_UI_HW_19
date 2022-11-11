@@ -1,0 +1,308 @@
+body{
+    background-color: black;
+}
+/* header content*/
+.nav {
+    background-color: black;
+    color: white;
+    list-style-type: none;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Economica', sans-serif;
+}
+
+.nav li{
+    display: inline-block;
+    font-size: 35pt;
+    padding-left: 86px;
+    padding-bottom: 0;
+    font-family: 'Economica', sans-serif;
+}
+/* hero content*/
+.heroImg {
+    background-image: linear-gradient(to right, rgba(0,0,0,1), rgba(186,12,47,.40));
+    color: white;
+    max-height: 413px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center {
+    font-family: 'Caveat', cursive;
+    font-size: 150px;
+    padding: 0px;
+}
+
+.bottomLeft {
+    font-family: 'Economica', sans-serif;
+    font-size: 35pt;
+    align-self: flex-end;
+}
+
+.topRight {
+    font-family: 'Economica', sans-serif;
+    font-size: 35pt;
+    align-self: flex-start;
+}
+/* footer content*/
+.footer {
+    background-color: black;
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Economica', sans-serif;
+}
+
+.foot li{
+    display: inline-block;
+    padding-left: 30px;
+    padding-bottom: 0;
+    font-family: 'Economica', sans-serif;
+}
+/* text content*/
+p {
+    color: white;
+    font-size: 30pt;
+    font-family:'Economica', sans-serif;
+}
+
+h2{
+    color: white;
+    font-size: 45pt;
+    font-family: 'Economica', sans-serif;
+}
+
+h3 {
+    color: white;
+    font-size: 35pt;
+    font-family: 'Economica', sans-serif;
+}
+/* about content*/
+.aboutInfo{
+    color: white;
+    font-size: 30pt;
+    font-family:'Economica', sans-serif;
+    width: 1005px;
+    margin-right: 40px;
+    margin-left: 5%;
+}
+
+.about{
+    background-color: black;
+    height: 427px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+    "h2 h2 img"
+    "aboutInfo aboutInfo img"
+    "button button img";
+}
+
+.aboutHeader{
+    margin-left: 5%;
+}
+
+.learnMoreButton{
+    margin-left: 5%;
+    background-color: black;
+    color: white;
+    font-family: 'Economica', sans-serif;
+    font-size: 25pt;
+    text-decoration: underline
+}
+
+.chevronRight{
+    border-style: solid;
+	border-width: 0.25em 0.25em 0 0;
+	content: '';
+	display: inline-block;
+	height: 0.45em;
+	left: 0.15em;
+	position: relative;
+	top: 0.15em;
+	transform: rotate(-45deg);
+	vertical-align: top;
+	width: 0.45em;
+    left: 0;
+	transform: rotate(45deg);
+}
+/* skill content */
+.userResearch{
+    color: white;
+    font-size: 30pt;
+    font-family:'Economica', sans-serif;
+    display: inline-block;
+}
+
+.design{
+    color: white;
+    font-size: 30pt;
+    font-family:'Economica', sans-serif;
+    display: inline-block;
+}
+
+.validationTesting{
+    color: white;
+    font-size: 30pt;
+    font-family:'Economica', sans-serif;
+    display: inline-block;
+}
+
+.whiteBox1{
+    background-color: white;
+    width: 235px;
+    height: 22px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.whiteBox2{
+    background-color: white;
+    width: 235px;
+    height: 22px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.whiteBox3{
+    background-color: white;
+    width: 235px;
+    height: 22px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.redBox1{
+    background-color: rgba(186, 12, 47, 1);
+    width: 215px;
+    height: 22px;
+    border-radius: 10px;
+}
+
+.redBox2{
+    background-color: rgba(186, 12, 47, 1);
+    width: 224px;
+    height: 22px;
+    border-radius: 10px;
+}
+
+.redBox3{
+    background-color: rgba(186, 12, 47, 1);
+    width: 210px;
+    height: 22px;
+    border-radius: 10px;
+}
+
+.skills{
+    display: grid;
+    grid-template-columns: 36% 64%;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "skillGraph skillText";
+}
+
+.skillText{
+    width: 900px;
+    font-size: 30px;
+}
+
+.skillGraph{
+    margin-left: 5%;
+}
+
+/* My Works Content*/
+
+.myWorks{
+    text-align: center;
+}
+
+.doi{
+    display: inline-block;
+    float: left;
+    margin-left: 225px;
+}
+
+.rescueMe{
+    display: inline-block;
+    margin-right: 100px;
+}
+
+/* Page Two CSS */
+
+.rescueMeWork{
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+}
+
+.doiWork{
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+}
+
+.seeWF{
+    text-decoration: underline;
+    font-size: 20pt;
+}
+
+@media only screen and (max-width:600){
+    .about{
+        background-color: black;
+        height: 427px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto;
+        grid-template-areas: 
+        "h2 h2 img"
+        "aboutInfo aboutInfo img"
+        "button button img";
+    }
+}
+
+/* Contact */
+.workWith{
+    text-align: center;
+}
+
+body {font-family: 'Economica', sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+#buttonSubmit{
+    background-color:black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Economica', sans-serif;
+    font-size: 20pt;
+}
+
+.container {
+  border-radius: 5px;
+  width: 75%;
+  text-align: left;
+  background-color: rgba(186, 12, 47, 1);
+  padding: 20px;
+  margin-left: 150px;
+}
